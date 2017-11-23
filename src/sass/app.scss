@@ -1,0 +1,38 @@
+$primary-color: #FFF;
+
+.react-app {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-title {
+    width: 100%;
+    display: block;
+    flex-shrink: 0;
+    h1 {
+        
+    }
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 500px;
+    overflow-y: scroll;
+    padding: 5px;
+    border: 1px solid #000;
+    .details {
+        float: right;
+    }
+}
+
+.contact-details {
+    width: 60%;
+    margin-top: 10px;
+    padding: 10px;
+    .row {
+    }
+}
